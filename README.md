@@ -19,13 +19,13 @@ After acquiring the images, we can feed them into the ann using the feedforward 
 For testing the network, the First thing is to create our wights and biases matrices randomly and to calculate the accuracy before doing ant training on the network. Next we train our network by feeding the first 100 images into the neural network from our train set and then training it by backpropagation.
 Here are the parameters I used to train the network, the accuracy and the results:
 <br>
-<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/mnist-table.png?raw=true" alt="img" width="300" />
+<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/mnist-table.png?raw=true" alt="img" width="600" />
 <br>
 The following plot shows the cost function output in each epoch of training the ann:
 <br>
-<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt1.png?raw=true" alt="img"/>
+<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt1.png?raw=true" alt="img" width="500"/>
 <br>
 I tested the results with 200 epochs and 500 samples and the final accuracy increased by more than 10 percent. I also did the same test with the hyperbolic tangent as the activation function. The ploting of each of these tests are illustrated below:
 <br>
-<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt2.png?raw=true" alt="img" />
+<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt2.png?raw=true" alt="img" width="500"/>
 <br>
