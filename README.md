@@ -23,7 +23,7 @@ Here are the parameters I used to train the network, the accuracy and the result
 <br>
 The following plot shows the cost function output in each epoch of training the ann:
 <br>
-<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt1.png?raw=true" alt="img" width="500"/>
+<img src="https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/plt1.png?raw=true" alt="img" width="300"/>
 <br>
 I tested the results with 200 epochs and 500 samples and the final accuracy increased by more than 10 percent. I also did the same test with the hyperbolic tangent as the activation function. The ploting of each of these tests are illustrated below:
 <br>
